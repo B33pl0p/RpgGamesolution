@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgGame", "RpgGame\RpgGame.csproj", "{7F835741-FC42-45CE-99BD-31A337914D2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game_engine", "game_engine\game_engine.csproj", "{EA5528C3-9DDF-4669-AF5D-C683ED1AEB4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7F835741-FC42-45CE-99BD-31A337914D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F835741-FC42-45CE-99BD-31A337914D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F835741-FC42-45CE-99BD-31A337914D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5528C3-9DDF-4669-AF5D-C683ED1AEB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5528C3-9DDF-4669-AF5D-C683ED1AEB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5528C3-9DDF-4669-AF5D-C683ED1AEB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5528C3-9DDF-4669-AF5D-C683ED1AEB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
