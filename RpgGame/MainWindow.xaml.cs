@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using game_engine.ViewModel;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RpgGame
 {
@@ -20,9 +9,32 @@ namespace RpgGame
     /// </summary>
     public partial class MainWindow : Window
     {
+        public GameSession _gameSession;
+
+
         public MainWindow()
         {
             InitializeComponent();
+            _gameSession = new GameSession();
+            DataContext = _gameSession;
+        }
+
+        private void Onclick_MoveNorth(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveNorth();
+        }
+        private void Onclick_MoveWest(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveWest();
+        }
+        private void Onclick_MoveEast(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveEast();
+
+        }
+        private void Onclick_MoveSouth(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveSouth();
         }
     }
 }
